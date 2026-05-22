@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-        font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 nav a {
@@ -16,9 +16,10 @@ nav a {
     transition: 0.5s;
 
 }
-nav a:hover{
-    color: rgba(0, 0, 0, 0.466) ;
-    background-color: rgb(216, 213, 213) ;
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.466);
+    background-color: rgb(216, 213, 213);
 }
 
 header {
@@ -42,8 +43,10 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+
 /* banner */
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -54,8 +57,10 @@ body {
 }
 
 main {
-    /* flex: 1; */
+    flex: 1;
     display: flex;
+    flex-direction: column;
+
 }
 
 .banner {
@@ -67,7 +72,32 @@ main {
     text-align: center;
     padding: 2rem;
     background-image: url(https://static.vecteezy.com/ti/vettori-gratis/p1/2909372-lusso-astratto-banner-sfondo-vettore-moderno-forme-geometriche-e-d-oro-line-art-wallpaper-design-per-sito-web-stampe-copertina-sfondo-arte-parete-e-decorazione-parete-vettoriale.jpg);
+    background-size: cover;
+    background-position: center;
 
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.btn-contatti {
+    text-decoration: none;
+    background-color: #4070a0;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-contatti:hover {
+    background-color: #2e5479;
+    transform: translateY(-3px);
 }
 
 .titolo {
@@ -95,7 +125,6 @@ footer {
     background-color: #4d4b4b;
     color: #e0e0e0;
     padding: 3rem 2rem 1.5rem;
-    margin-top: 4rem;
     font-family: 'Segoe UI', sans-serif;
 }
 
