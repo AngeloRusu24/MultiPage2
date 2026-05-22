@@ -1,0 +1,17 @@
+:root{
+
+}
+
+.contenitore-cards{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr)); /*due card per riga minimo 200px ciascuna*/
+    gap: 20px;
+    padding: 40px;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
