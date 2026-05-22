@@ -1,0 +1,87 @@
+/* Contenitore del modulo di contatto nella pagina profilo */
+.blocco-contatto-profilo {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #ffffff; /* Sfondo bianco pulito per staccare dal grigio dello sfondo */
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #1e293b; /* Richiamo scuro coerente con l'header */
+}
+
+.titolo-form {
+    font-size: 24px;
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.sottotitolo-form {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Struttura dei campi del modulo */
+.form-profilo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+/* Input di testo e Textarea */
+.campo-form input, 
+.campo-form textarea {
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    background-color: #f8fafc;
+    color: #1e293b;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+/* Focus sui campi per evidenziare la scrittura */
+.campo-form input:focus, 
+.campo-form textarea:focus {
+    border-color: #1e293b;
+    background-color: #ffffff;
+}
+
+/* Re-styling del bottone mantenendo l'impostazione .banner-button */
+.form-profilo .banner-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-invia {
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-invia:hover {
+    background-color: #334155; /* Si schiarisce leggermente per feedback */
+}
