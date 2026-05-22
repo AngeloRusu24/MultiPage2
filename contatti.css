@@ -1,4 +1,50 @@
-:root{
+/* definisco il body della pagina */
+body{
+    background-color: rgb(189, 207, 223);
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+/* imposto la griglia */
+.contenitore{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr 50px;  
+}
+
+/* definisco l'header */
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    background-color: rgba(217, 234, 255, 0.62);
+    padding: 20px;
+    margin-top: 10px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    /* arrotondo i bordi */
+    border-radius: 10px;
+    /* posiziono gli elementi in colonna (uno sopra l'altro) */
+    flex-direction: column;
+    /* lascia spazio tra un elemento e l'altro */
+    gap: 10px;
 
 }
 
@@ -9,8 +55,22 @@
     padding: 40px;
 }
 
-.card{
-    background-color: white;
+.cardAlex{
+    background-color: rgb(224, 214, 214);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardBia{
+    background-color: rgb(129, 210, 160);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardAngelo{
+    background-color: rgb(204, 98, 98);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
