@@ -111,6 +111,7 @@ footer {
 }
 
 .footer-container {
+    grid-area: footer;
     display: flex;
     justify-content: space-between;
     gap: 2rem;
