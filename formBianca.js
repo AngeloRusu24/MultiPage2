@@ -11,6 +11,11 @@ form.addEventListener("submit", function(event){
     const messaggio = document.getElementById("messaggio").value;
     // messaggio di successo
     risposta.textContent = "Messaggio inviato";
+    //questo l'ho chiesto all'ai perchè non lo sapevo fare
+    // cancella messaggio dopo 2 secondi
+    setTimeout(function(){
+        risposta.textContent = "";
+    }, 2000);
 
     // reset form
     form.reset();
