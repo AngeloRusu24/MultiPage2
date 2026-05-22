@@ -26,10 +26,18 @@ body{
 main{
     grid-area: main;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 30px;
+    margin-left: 50px;
 }
+
+main h2{
+    text-align: center;
+    color: rgb(61, 61, 217);
+}
+
 .sidebar{
     grid-area: sidebar;
     display: flex;
