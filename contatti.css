@@ -29,7 +29,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     margin-left: 50px;
 }
 
@@ -44,7 +44,8 @@ main h2{
     background-color: rgba(217, 234, 255, 0.62);
     padding: 20px;
     margin-top: 10px;
-    height: 250px;
+    margin-left: 10px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     /* arrotondo i bordi */
@@ -52,7 +53,7 @@ main h2{
     /* posiziono gli elementi in colonna (uno sopra l'altro) */
     flex-direction: column;
     /* lascia spazio tra un elemento e l'altro */
-    gap: 10px;
+    gap: 20px;
 
 }
 
