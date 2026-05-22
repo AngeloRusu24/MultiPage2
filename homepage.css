@@ -1,13 +1,169 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+        font-family: sans-serif;
 }
 
-header{
+nav a {
+    text-decoration: none;
+    color: rgb(216, 213, 213);
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+
+}
+nav a:hover{
+    color: rgba(0, 0, 0, 0.466) ;
+    background-color: rgb(216, 213, 213) ;
+}
+
+header {
     display: flex;
     min-height: 10vh;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
+    border-bottom: 3px solid #4070a0;
+}
+
+.logo {
+    margin: 0 30px;
+    font-size: 1.2rem;
+
+
+}
+
+.navbar {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* banner */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    /* flex: 1; */
+    display: flex;
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(https://static.vecteezy.com/ti/vettori-gratis/p1/2909372-lusso-astratto-banner-sfondo-vettore-moderno-forme-geometriche-e-d-oro-line-art-wallpaper-design-per-sito-web-stampe-copertina-sfondo-arte-parete-e-decorazione-parete-vettoriale.jpg);
+
+}
+
+.titolo {
+    font-size: 3rem;
+    color: #4070a0;
+    margin-bottom: 1rem;
+}
+
+.descrizione {
+    max-width: 700px;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #4d4b4b;
+    color: #e0e0e0;
+    padding: 3rem 2rem 1.5rem;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.footer-brand {
+    max-width: 260px;
+}
+
+.footer-logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.footer-tagline {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: #888;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-col h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #adacac;
+    margin-bottom: 0.4rem;
+}
+
+.footer-col a {
+    font-size: 0.9rem;
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 0.78rem;
+    color: #444;
+    max-width: 1100px;
+    margin: 0 auto;
 }
