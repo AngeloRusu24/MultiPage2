@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
