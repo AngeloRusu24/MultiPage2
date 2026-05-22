@@ -83,3 +83,21 @@ main h2{
     border-radius: 10px;
     text-align: center;
 }
+.cardAlex img{
+    width: 100%; /*riempie tutto lo spazio disponibile*/
+    height: 200px;
+    object-fit: cover; /*mette l'immagine nella card mantenendo proporzioni originali*/
+    border-radius: 5px;
+}
+.cardBia img{
+    width: 100%; /*riempie tutto lo spazio disponibile*/
+    height: 200px;
+    object-fit: cover; /*mette l'immagine nella card mantenendo proporzioni originali*/
+    border-radius: 5px;
+}
+.cardAngelo img{
+    width: 100%; /*riempie tutto lo spazio disponibile*/
+    height: 200px;
+    object-fit: cover; /*mette l'immagine nella card mantenendo proporzioni originali*/
+    border-radius: 5px;
+}
