@@ -44,7 +44,7 @@ main h2{
     background-color: rgba(217, 234, 255, 0.62);
     padding: 20px;
     margin-top: 10px;
-    height: 250px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     /* arrotondo i bordi */
@@ -54,6 +54,35 @@ main h2{
     /* lascia spazio tra un elemento e l'altro */
     gap: 10px;
 
+}
+
+.form-contatti{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-contatti input, textarea{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.form-contatti textarea{
+    height: 100px;
+    resize: none;
+}
+
+.form-contatti button{
+    background-color: rgb(61, 61, 217);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .contenitore-cards{
@@ -76,13 +105,13 @@ main h2{
     padding: 30px;
     border-radius: 10px;
     text-align: center;
-    width: 400px;
+    width: 300px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
 
 .cardBia img{
     width: 100%; /*riempie tutto lo spazio disponibile*/
-    height: 200px;
+    height: 150px;
     object-fit: cover; /*mette l'immagine nella card mantenendo proporzioni originali*/
     border-radius: 5px;
 }
