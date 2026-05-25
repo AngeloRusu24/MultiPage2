@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>TechTeam9 — Angelo Rusu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="./angelo.css">
 </head>
 <body>
     
@@ -14,50 +14,83 @@
             TechTeam9
         </div>
         <nav class="navbar">
-            <a href="./homepage.html">HomePage</a>
+            <a href="./index.html">HomePage</a>
             <a href="./contatti.html">Contatti</a>
-            <a href="./angelo.html" class="active">Angelo Rusu</a>
-            <a href="./alexander.html">Alexander Yepez</a>
             <a href="./contattiBianca.html">Bianca Andreea Ciocoiu </a>
+            <a href="./alexander.html">Alexander Yepez</a>
+            <a href="./angelo.html" class="active">Angelo Rusu</a>
         </nav>
     </header>
 
-    <main>
-        <div class="banner">
-            <h1 class="titolo">
-                Angelo Rusu
-            </h1>
-            <p class="descrizione">
-                Sono un Full-Stack Developer e Co-Founder di TechTeam9. Mi occupo principalmente di progettare l'architettura logica dei nostri applicativi, ottimizzare i database e sviluppare API sicure ed efficienti. 
-                Metto la mia passione per la programmazione al servizio delle imprese, trasformando flussi di lavoro complessi in interfacce pulite, veloci e scalabili per l'utente finale.
-            </p>
-        </div>
-
-        <div class="blocco-contatto-profilo">
-            <h2 class="titolo-form">Contatta Angelo</h2>
-            <p class="sottotitolo-form">Invia un messaggio diretto per richiedere una consulenza tecnica o info sui progetti.</p>
+    <main class="profile-page">
+        
+        <div class="profile-card">
             
-            <form action="#" method="POST" class="form-profilo">
-                <div class="campo-form">
-                    <label for="nome">Nome e Cognome</label>
-                    <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" required>
-                </div>
+            <div class="profile-header">
+                <h1 class="nome">Angelo Rusu</h1>
+                <p class="descrizione">
+                    Siamo il partner digitale che trasforma le tue idee in prodotti software concreti. 
+                    All'interno del team mi occupo di sviluppo web full-stack, architetture backend scalabili e integrazioni API. 
+                    Seguo ogni progetto con un approccio agile, veloce e orientato ai risultati, costruendo esperienze digitali stabili che fanno la differenza.
+                </p>
+            </div>
 
-                <div class="campo-form">
-                    <label for="email">Indirizzo Email</label>
-                    <input type="email" id="email" name="email" placeholder="nome@esempio.com" required>
-                </div>
+            <div class="section-box">
+                <h2 class="section-title">Cosa Faccio (Skills)</h2>
+                <ul class="skills-list">
+                    <li>Sviluppo Web Full-Stack</li>
+                    <li>App Progressive (PWA)</li>
+                    <li>E-commerce</li>
+                    <li>API e Integrazioni</li>
+                    <li>Consulenza Tecnologica</li>
+                </ul>
+            </div>
 
-                <div class="campo-form">
-                    <label for="messaggio">Messaggio</label>
-                    <textarea id="messaggio" name="messaggio" rows="5" placeholder="Descrivi brevemente la tua idea o richiesta..." required></textarea>
-                </div>
+            <div class="section-box">
+                <h2 class="section-title">Lingue</h2>
+                <ul class="language-list">
+                    <li>Italiano (Madrelingua)</li>
+                    <li>Inglese (Tecnico / Professionale)</li>
+                    <li>Rumeno</li>
+                </ul>
+            </div>
 
-                <div class="banner-button">
-                    <button type="submit" class="btn-invia">Invia Messaggio</button>
+            <div class="section-box">
+                <h2 class="section-title">Link Utili</h2>
+                <div class="link-list">
+                    <a href="./index.html">Torna alla Home</a>
+                    <a href="./alexander.html">Profilo Alexander</a>
+                    <a href="./contattiBianca.html">Profilo Bianca</a>
                 </div>
-            </form>
+            </div>
+
         </div>
+
+        <div class="contact-section">
+            <div class="contact-card">
+                <h2 class="contact-title">Contatta Angelo</h2>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <div class="input-group">
+                        <label for="username">Nome Completo</label>
+                        <input type="text" id="username" placeholder="Inserisci il tuo nome" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="useremail">Indirizzo Email</label>
+                        <input type="email" id="useremail" placeholder="nome@esempio.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="usermessage">Come posso aiutarti?</label>
+                        <input type="text" id="usermessage" placeholder="Descrivi brevemente il tuo progetto..." required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Invia Messaggio</button>
+                </form>
+            </div>
+        </div>
+
     </main>
 
     <footer>
@@ -91,5 +124,6 @@
             <span>© 2026 TechTeam9 — Tutti i diritti riservati</span>
         </div>
     </footer>
+
 </body>
 </html>
